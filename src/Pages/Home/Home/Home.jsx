@@ -13,7 +13,7 @@ import Slider from "../Slider/Slider";
 import Team from "../Team/Team";
 import Testimonial from "../Testimonial/Testimonial";
 import WorkingProcess from "../WorkingProcess/WorkingProcess";
-import MediaQuery from 'react-responsive'
+
 
 
 
@@ -21,7 +21,7 @@ const Home = () => {
     
     return (
         <div>
-            <MediaQuery minWidth={1224}></MediaQuery>
+           
             <Banner></Banner>
             <Service></Service>
             <Card></Card>
